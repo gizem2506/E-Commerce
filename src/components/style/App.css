@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+background-color:blanchedalmond;}
+.mycart {
+  display: flex;
+  margin-left: 10px;
+  font-weight:bold;
+}
+
+.mycart p {
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.mycart h4 {
+  color: red;
+  font-weight: lighter;
+}
+
+
+.main {
+  width: 90vw;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemlist {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
